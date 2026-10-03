@@ -1,0 +1,211 @@
+With this same document Style, I need create a Travel Plan with coverted below point as well bet for you if any addional thing required.
+
+
+
+Goa Family Trip – Summary
+
+Travellers: 4 Members — 2 Adults + 2 Children Mendadory for Child Age
+
+Trip Dates: 04 October 2026 – 10 October 2026
+
+Outbound: Ahmedabad → Goa by Flight on 04-Oct-2026
+
+Return: Goa → Ahmedabad by Train on 10-Oct-2026
+
+Hotel: Prefer 4-Star Hotel, Also include the Cancellation, *Vagitarian Food Access.
+
+Hotel Budget: Maximum ₹5,000 per night
+
+Trip Budget: Approximately ₹35,000 total
+
+Priority: Family-friendly hotel, economical travel, comfortable stay, and sightseeing within budget.
+
+Contrains: I need to coverd all the important palce Coverd, So also need to pace wise speding times.
+
+Contrains: Trip Pass as but no mandatory.
+
+
+Required for the Model 
+My from Destination and To Destination need to LLModel. 
+
+
+
+
+
+
+AI Travel Planning Requirement
+1. Trip Details
+
+From: Ahmedabad
+
+To: Munnar
+
+Adults: 12
+
+Children: 2
+
+Total Travellers: 14
+
+Child Age: Mandatory input
+
+Travel Mode: Flight (allow up to 30 km for nearby airport transfer)
+
+Start Date: 08 November 2026
+
+End Date: 15 November 2026
+
+Duration: 8 Days / 7 Nights
+
+2. Hotel Requirements
+
+Hotel Category: 5-Star
+
+Room Occupancy: 2 Persons per Room
+
+Required Rooms: 7
+
+Food Preference: Jain Food
+
+Payment Method: Credit Card / Debit Card
+
+Cancellation Policy: Hotel cancellation policy information is required.
+
+3. AI / API Requirements
+LLM Model
+
+Use the LLM for:
+
+Validate whether the trip is feasible between the source and destination.
+
+Cost estimation.
+
+Hotel offers and recommendations.
+
+Tour guide recommendations.
+
+Recommended medicines and clothing based on destination and weather.
+
+Vehicle rental availability.
+
+Mandatory travel documents.
+
+Travel API
+
+Use Google Maps / Google Travel APIs to determine:
+
+Source and destination details.
+
+Available travel modes.
+
+Flight/rail/road options where available.
+
+Departure time.
+
+Arrival time.
+
+Travel duration.
+
+Hotel API
+
+Use a hotel API to retrieve:
+
+Hotel ID.
+
+Hotel name and location.
+
+Star category.
+
+Room availability.
+
+Room price.
+
+Jain food availability.
+
+Payment options.
+
+Cancellation policy.
+
+Weather API
+
+Use a weather API to retrieve:
+
+Daily weather forecast.
+
+Temperature.
+
+Rain probability.
+
+Weather alerts.
+
+Recommended clothing/requirements.
+
+4. Expected Output
+{
+  "trip": {
+    "isPossible": true,
+    "source": "Ahmedabad",
+    "destination": "Munnar",
+    "startDate": "2026-11-08",
+    "endDate": "2026-11-15",
+    "totalTravelers": 14
+  },
+  "travelDetails": [
+    {
+      "mode": "Flight",
+      "departureTime": "",
+      "arrivalTime": "",
+      "duration": "",
+      "details": ""
+    },
+    {
+      "mode": "Rail",
+      "departureTime": "",
+      "arrivalTime": "",
+      "duration": "",
+      "details": ""
+    }
+  ],
+  "sightseeing": [],
+  "hotels": [],
+  "costing": {},
+  "hotelOffers": [],
+  "tourGuides": [],
+  "recommendedMedicines": [],
+  "recommendedClothing": [],
+  "vehicleRental": {},
+  "requiredDocuments": []
+}
+
+Roles of Agents
+hotel agents
+travel agents
+insurance agents
+finance agents
+Tour guide agent
+Style agent
+document agents
+health agents
+customer care agents
+weather agents
+diaetian agent
+TL agent
+ 
+ 
+Tools Agent
+AS according requirements
+
+Constraints
+LLM, Create a constrains as according requirement and validate also from LLM
+
+Contacts : Requiremnt Contact  (Each and Every Agents)
+
+Generate Agent MD File as Final.
+
+
+
+
+
+
+
+
+
